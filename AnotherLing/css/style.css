@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+
+#aboutTitle {
+  font-size: 4rem;
+  color: #efefef;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 0 15px;
+    
+}
+
+li a{
+  text-decoration: none;
+}
+
+#aboutUl {
+  list-style: none;
+  display: flex;
+  color: #efefef;
+}
+
+#homeUl {
+  list-style: none;
+  display: flex;
+  color: #efefef;
+}
+
+#aboutLi{
+  color: #efefef;
+  margin: 0 15px;
+  
+}
+
+li:hover{
+  color: beige;
+  font-weight: lighter;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+
+}
+
+nav p {
+    font-weight: bold;
+}
+
+nav ul {
+  font-weight: 600;
+  font-size: 30;
+}
+
+#txtA {
+  text-decoration: none;
+}
+
+#home {
+  height: calc(100vw - 150px);
+  background: no-repeat center/cover url(../resources/yoghurt-3293359.jpg);
+}
+
+#about {
+  height: calc(75vw - 150px);
+  background: no-repeat center/cover url(../resources/designanuncio.png);
+}
+
+.header-content{
+    max-width: 400px;
+    margin: 150px auto;
+}
+
+.anchor {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-59391 {
+    clear: both;
+    margin: 0px auto 0px auto;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #efefef;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    }
+    .footer-59391 .site-logo {
+      color: #fff; }
+      .footer-59391 .site-logo a {
+        font-size: 30px;
+        color: #000;
+        font-weight: 900; }
+    .footer-59391 .social-icons li {
+      display: inline-block; }
+      .footer-59391 .social-icons li a {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 40px;
+        border-radius: 50%; }
+        .footer-59391 .social-icons li a.dr {
+          background: #ff2e6e;
+         }
+        .footer-59391 .social-icons li a.be {
+          background: #394cff; }
+        .footer-59391 .social-icons li a.tw {
+          background: #00a0fb; }
+        .footer-59391 .social-icons li a.in {
+          background: #c31574; }
+        .footer-59391 .social-icons li a.fb {
+          background: #3b579b; }
+        .footer-59391 .social-icons li a.yt {
+          background: #fa2614; }
+        .footer-59391 .social-icons li a span {
+          position: absolute;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          color: #fff; }
+    .footer-59391 .nav-links li {
+      display: inline-block; }
+      .footer-59391 .nav-links li a {
+        font-size: 14px;
+        color: #777;
+        padding: 10px; }
+    @media (max-width: 1199.98px) {
+      .footer-59391 .nav-links.nav-left li:first-child a {
+        padding-left: 0; } }
+    .footer-59391 .nav-links.nav-right li:last-child a {
+      padding-right: 0; }
+    @media (max-width: 1199.98px) {
+      .footer-59391 .nav-links.nav-right li:first-child a {
+        padding-left: 0; } }
+    .footer-59391 .copyright {
+      border-top: 1px solid #efefef;
+      padding-top: 50px;
+      text-align: center;
+      color: #777; }
+
+a{
+text-decoration:none;
+}
+.container2{
+width:100%;
+height: 100vh;
+background-color:white;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.box{
+width:350px;
+height:610px;
+background-color:white;
+border-radius: 10px;
+box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+box-sizing: border-box;
+margin: 20px 10px;
+overflow: hidden;
+}
+.model{
+height: 350px;
+max-height: 100%;
+max-width: 100%;
+}
+.details{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+}
+.details p{
+font-family: calibri;
+font-weight: bold;
+color:#6a6a74;
+text-align: center;
+margin-top: 20px;
+}
+.products{
+color:#1e1e26;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: bebas kai;
+font-size: 25px;
+}
+.logo{
+height: 60px;
+}
+.box:hover{
+background-color: white;
+transform-style: preserve-3d;
+transform: scale(1.02);
+transition: all ease 0.3s;
+}
+.box:hover .products{
+color:pink;
+transition: all ease 0.5s;
+
+}
+
+.price{
+  color: green;
+}
+
+#uva:hover{
+  color:blueviolet;
+  transition: all ease 0.5s;
+}
+#morango:hover{
+  color:rgb(248, 47, 47);
+  transition: all ease 0.5s;
+}
+#laranja:hover{
+  color: rgb(247, 117, 71);
+  transition: all ease 0.5s;
+}
+#chocolate:hover{
+  color: rgb(56, 15, 1);
+  transition: all ease 0.5s;
+}
+#baunilha:hover{
+  color: burlywood;
+  transition: all ease 0.5s;
+}
+#mato:hover{
+  color: rgb(151, 245, 108);
+  transition: all ease 0.5s;
+}
+
+#caramelo:hover{
+  color: yellow;
+  transition: all ease 0.5s;
+}
+
+#price {
+  color: green;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+}
+
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+.box{
+  width: 94%;
+  height: 500px;
+}
+.model{
+  height:250px;
+}
+.details p{
+  font-size: 16px;
+  width: 250px;
+}
+
+.anchor {
+ font-size: 0px; 
+}
+
+}
